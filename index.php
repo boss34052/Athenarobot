@@ -60,7 +60,7 @@
         <div class="container">
             <div class="content-heading">
                 <br>
-                <img src="/dist/Athena_robot/img/image3.jpg" align="right" height="260px" alt="" vspace= “10” hspace= “100”> 
+                <img src="img/image3.jpg" align="right" height="260px" alt="" vspace= “10” hspace= “100”> 
                 <h1>Hospitals are about healing</h1>
                 <h2>Robot is simple and useful</h2>
                 <br>

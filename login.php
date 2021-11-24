@@ -35,7 +35,7 @@
 </head>
 <body>
 	<div class="container">
-	<img src="/dist/Athenarobot/img/login.jpg" alt=""/>
+	<img src="/dist/Athena_robot/img/login.jpg" alt=""/>
 		<form action="login_db.php" method="post">
 		<?php include('errors.php'); ?>
     	<!-- notification message -->

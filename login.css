@@ -53,7 +53,7 @@ input[type="text"],input[type="password"]{
 	padding: 10px;
     font-size: 20px;
     color: white;
-    background: #5f9ea0;
+    background: #4dc9ce;
     border: none;
     border-radius: 5px;
 }
@@ -73,4 +73,22 @@ input[type="text"],input[type="password"]{
     background: #dff9d8;
     border: 1px solid #3c763d;
     margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+	.container{
+		width: 480px;
+		height: 450px;
+		text-align: center;
+		margin: 0 auto;
+		background-color: rgba(44, 62, 80,0.7);
+		margin-top: 160px;
+	}
+
+	.img {
+		text-align: center;
+	}
+	.form-input::before {
+		text-align: center;
+	}
 }

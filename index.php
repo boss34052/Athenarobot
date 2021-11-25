@@ -24,6 +24,7 @@
 <link href="index.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous"/>
 <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -64,7 +65,7 @@
                 <h1>Hospitals are about healing</h1>
                 <h2>Robot is simple and useful</h2>
                 <br>
-                <br>
+                
                 <button id="r-0" style="width: 120px;"><a href="service.php">Let Started</a></button>
                 
             </div>
@@ -84,8 +85,8 @@
 
             <!-- logged in user information-->
         <?php if (isset($_SESSION['username'])) : ?>
-            <p>Welcome  <strong><?php echo $_SESSION['username']; ?></strong></p>
-            <p><a href="index.php?logout='1'" style="color: red;">Logout</a></p>
+            <p>Welcome  <strong><?php echo $_SESSION['username']; ?></strong>&nbsp<a href="index.php?logout='1'" style="color: red;">Logout</a></p>
+            
         <?php endif ?>
         </div>
     </section>
@@ -95,25 +96,28 @@
             <div class="content-services">
                 <div class="content-services-grid">
 
-                    <div class="content-services-item">
+                    <div class="content-services-item"><a href="index.php">
                         <i class="fa fa-address-book" aria-hidden="true"></i>
                         <h2>Product</h2>
                         <p>about robot</p>
+                        </a>
                     </div>
 
-                    <div class="content-services-item">
+                    <div class="content-services-item"><a href="service.php">
                         <i class="fa fa-bandcamp" aria-hidden="true"></i>
                         <h2>Services</h2>
                         <p>robot interface</p>
+                        </a>
                     </div>
 
-                    <div class="content-services-item">
+                    <div class="content-services-item"><a href="data.php">
                         <i class="fa fa-envelope-open" aria-hidden="true"></i>
                         <h2>Database</h2>
                         <p>robot data</p>
+                        </a>
                     </div>
 
-                    <div class="content-services-item"><a href="about.html">
+                    <div class="content-services-item"><a href="about.php">
                         <i class="fa fa-telegram" aria-hidden="true"></i>
                         <h2>About Us</h2>
                         <p>about present</p>

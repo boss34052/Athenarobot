@@ -16,7 +16,7 @@
 <html>
 <head>
     <title>Slamtec Athena</title>
-
+    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     
     <link rel="shortcut icon" type="image/png" href="img/favicon.png">
@@ -103,7 +103,7 @@
             <td><?php echo $rs['d_6']; ?></td>
             <td><?php echo $rs['d_7']; ?></td>
             <td><?php echo $rs['d_8']; ?></td>
-            <th><?php echo $rs['d_insert']; ?></th>
+            <th><?php echo date('d/m/Y H:i:s',strtotime($rs['d_insert'].' +7 hours' )); ?></th>
             </tr>
             </tbody>
             </table>

@@ -18,21 +18,29 @@ header {
     background: #000;
     border-top: 5px solid #40aed4;
 }
+nav {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+
+}
 
 .nav-grid {
-    display: grid;
-    grid-template-columns: 300px 1fr;
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  padding: 0;
 }
 .logo {
-    margin-top: 40px;
+    margin-top: 30px;
     color: #fff;
+    align-items: center;
 }
 .logo h1 {
-    font-size: 20px;
+    font-size: 32px;
     text-transform: uppercase;
 }
 .logo span {
-    font-size: 10px;
+    font-size: 16px;
 }
 
 /******* MENU *******/
@@ -59,6 +67,10 @@ ul.menu li a:hover {
     border-radius: 5px;
 }
 
+/***Disabled***/
+option:disabled{
+  color: red;
+}
 /******* CONTENT *******/
 
 .content {
@@ -110,7 +122,7 @@ ul.menu li a:hover {
 .content-services-block {
     width: 360px;
     margin: 2rem auto;
-    height: 600px;
+    height: 685px;
     box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
     border-radius: 50px;
     overflow: hidden;
@@ -138,8 +150,11 @@ ul.menu li a:hover {
       font-size: 20px;
 }
 /**ROW/COL***/
-.row{
-  
+table.center {
+  margin: 0px;
+}
+td {
+  padding: 0px;
 }
 .col {
   margin: 2px;
@@ -390,7 +405,7 @@ ul.menu li a:hover {
     font-size: 1.2em;
     height: 40px;
     text-align: center;
-    justify-content: center;
+
     /*display: flex;*/
     background: #72897f;
 }
@@ -498,3 +513,34 @@ ul.menu li a:hover {
     z-index: -1;
     transition: all 0.25s ease;
 }
+
+@media only screen and (max-width: 480px){
+  header {
+      height: auto;
+  }
+
+  .nav-grid {
+      text-align: center;
+      grid-template-columns: 1fr;
+  }
+
+  ul.menu {
+      grid-template-columns: 1fr;
+  }
+
+  ul.menu li {
+      height: 2.5rem;
+  }
+
+  .content {
+      height: 900px;
+  }
+
+  .content-services-block {
+    width: 300px;
+    margin: 2rem auto;
+    height: 750px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+    border-radius: 50px;
+    overflow: hidden;
+  }

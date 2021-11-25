@@ -14,6 +14,9 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous"/>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.19/css/uikit.css"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head> 
 
 <header>
@@ -75,11 +78,15 @@
                     <div class="select">
                         <h1><p class="output">Select The Bed Number?</p></h1>
                     </div>
-
+                    <div class="">
+                        <img src="img/image2.jpg" alt=""  style="width: 100%;height: 150px;">
+                    </div>
                     <div class="content-services-grid">
                     <form action="d_in.php" method="post">
-                        <div class="row">
-                            <div class="col">
+                    <table class="AdminDataList AdminDataTable uk-table uk-table-divider uk-table-justify uk-table-small InputfieldTable" style="width:100%;">
+                    <tbody class="ui-sortable">    
+                    <tr>
+                            <td style="width:50%;">
                             <select id="select1" name="d_1">
                                     <option value="">--Select Bed--</option>
                                     <option type="hidden" value="Bed1" id="Bed1">Bed1</option>
@@ -92,8 +99,8 @@
                                     <option type="hidden" value="Bed8" id="Bed8">Bed8</option>
                             </select>
                             
-                            </div>
-                            <div class="col2">
+                            </td>
+                            <td style="width:50%;">
                             <select id="select2" name="d_2" disabled>
                                     <option value="">--Select Bed--</option>
                                     <option type="hidden" value="Bed1" id="Bed1">Bed1</option>
@@ -106,12 +113,13 @@
                                     <option type="hidden" value="Bed8" id="Bed8">Bed8</option>
                             </select>    
                             
-                            </div>
-                        </div>
-                    
+                            </td>
+                        </tr>
 
-                        <div class="row">
-                            <div class="col" style="display:table-row;">
+                        
+
+                        <tr>
+                            <td style="width:50%;">
                                 <label class="switch" style="display:table-cell;">
                                     <input type="checkbox" id="switch1" checked>
                                     <span>
@@ -119,8 +127,8 @@
                                         <strong></strong>
                                     </span>
                                 </label>
-                            </div>
-                            <div class="col2" style="display:table-row;">
+                            </td>
+                            <td style="width:50%;">
                                 <label class="switch" style="display:table-cell;">
                                     <input type="checkbox" id="switch2" checked disabled>
                                     <span>
@@ -128,11 +136,13 @@
                                         <strong></strong>
                                     </span>
                                 </label>
-                            </div>
-                        </div>
                         
-                        <div class="row">
-                            <div class="col">
+                            </td>
+                        </tr>
+                        
+
+                        <tr>
+                            <td style="width:50%;">
                             <select id="select3" name="d_3" disabled>
                                     <option value="">--Select Bed--</option>
                                     <option type="hidden" value="Bed1" id="Bed1">Bed1</option>
@@ -145,8 +155,8 @@
                                     <option type="hidden" value="Bed8" id="Bed8">Bed8</option>
                             </select>
                             
-                            </div>
-                            <div class="col2">
+                            </td>
+                            <td style="width:50%;">
                             <select id="select4" name="d_4" disabled>
                                     <option value="">--Select Bed--</option>
                                     <option type="hidden" value="Bed1" id="Bed1">Bed1</option>
@@ -159,10 +169,11 @@
                                     <option type="hidden" value="Bed8" id="Bed8">Bed8</option>
                             </select> 
                             
-                            </div>     
-                        </div>
-                        <div class="row">
-                            <div class="col" style="display:table-row;">
+                            </td>     
+                        </tr>
+
+                        <tr>
+                            <td style="width:50%;">
                                 <label class="switch" style="display:table-cell;">
                                     <input type="checkbox" id="switch3" checked disabled>
                                     <span>
@@ -170,8 +181,8 @@
                                         <strong></strong>
                                     </span>
                                 </label>
-                            </div>
-                            <div class="col2" style="display:table-row;">
+                            </td>
+                            <td style="width:50%;">
                                 <label class="switch" style="display:table-cell;">
                                     <input type="checkbox" id="switch4" checked disabled>
                                     <span>
@@ -179,11 +190,11 @@
                                         <strong></strong>
                                     </span>
                                 </label>
-                            </div>
-                        </div>
+                            </td>
+                        </tr>
 
-                        <div class="row">
-                            <div class="col">
+                        <tr>
+                            <td style="width:50%;">
                             <select id="select5" name="d_5" disabled>
                                     <option value="">--Select Bed--</option>
                                     <option type="hidden" value="Bed1" id="Bed1">Bed1</option>
@@ -196,8 +207,8 @@
                                     <option type="hidden" value="Bed8" id="Bed8">Bed8</option>
                             </select>
                             
-                            </div>
-                            <div class="col2">
+                            </td>
+                            <td style="width:50%;">
                             <select id="select6" name="d_6" disabled>
                                     <option value="">--Select Bed--</option>
                                     <option type="hidden" value="Bed1" id="Bed1">Bed1</option>
@@ -210,10 +221,11 @@
                                     <option type="hidden" value="Bed8" id="Bed8">Bed8</option>
                             </select>
                         
-                            </div>
-                        </div>
-                            <div class="row">
-                                <div class="col" style="display:table-row;">
+                            </td>
+                        </tr>
+
+                            <tr>
+                                <td style="width:50%;">
                                     <label class="switch" style="display:table-cell;">
                                         <input type="checkbox" id="switch5" checked disabled>
                                         <span>
@@ -221,8 +233,8 @@
                                             <strong></strong>
                                         </span>
                                     </label>
-                                </div>
-                                <div class="col2" style="display:table-row;">
+                                </td>
+                                <td style="width:50%;">
                                     <label class="switch" style="display:table-cell;">
                                         <input type="checkbox" id="switch6" checked disabled>
                                         <span>
@@ -230,13 +242,13 @@
                                             <strong></strong>
                                         </span>
                                     </label>
-                                </div>
-                            </div>
+                                </td>
+                            </tr>
                             
                         
 
-                        <div class="row">
-                            <div class="col">
+                        <tr>
+                            <td style="width:50%;">
                             <select id="select7" name="d_7" disabled>
                                     <option value="">--Select Bed--</option>
                                     <option type="hidden" value="Bed1" id="Bed1">Bed1</option>
@@ -249,8 +261,8 @@
                                     <option type="hidden" value="Bed8" id="Bed8">Bed8</option>
                             </select>
                             
-                            </div>
-                            <div class="col2">
+                            </td>
+                            <td style="width:50%;">
                             <select id="select8" name="d_8" disabled>
                                     <option value="">--Select Bed--</option>
                                     <option type="hidden" value="Bed1" id="Bed1">Bed1</option>
@@ -263,11 +275,11 @@
                                     <option type="hidden" value="Bed8" id="Bed8">Bed8</option>
                             </select> 
                             
-                            </div>
-                        </div>
+                            </td>
+                        </tr>
 
-                        <div class="row">
-                            <div class="col" style="display:table-row;">
+                        <tr>
+                            <td style="width:50%;">
                                 <label class="switch" style="display:table-cell;">
                                     <input type="checkbox" id="switch7" checked disabled>
                                     <span>
@@ -275,8 +287,8 @@
                                         <strong></strong>
                                     </span>
                                 </label>
-                            </div>
-                            <div class="col2" style="display:table-row;">
+                            </td>
+                            <td style="width:50%;">
                                 <label class="switch" style="display:table-cell;">
                                     <input type="checkbox" id="switch8" checked disabled>
                                     <span>
@@ -284,9 +296,12 @@
                                         <strong></strong>
                                     </span>
                                 </label>
-                            </div>
-                        </div>
+                            </td>
+                        </tr>
                         
+                    
+                    </tbody>
+                    </table>
                     </div>
 
                     <div class="rows">
@@ -301,10 +316,6 @@
                             <button id="btnlock" onclick="forlock()"style="width: 100px;">Lock All</button>
                             <button id="button" onclick="forcancel()" style="width: 100px;">Cancel</button>
                         </div>
-                        
-                        
-                        
-                        
                     </div>
 
 
@@ -365,9 +376,7 @@
                     <br/>
                     <p class="card-text">B_8 : <?php echo $rs['d_8']; ?></p>
                     <br/>
-                    <p class="card-text">Date(CURRENT_TIMESTAMP) : <?php echo $rs['d_insert']; ?></p>
-                    <br/>
-                    <p class="card-text">Date(CURRENT_TIMESTAMP-Modify) : <?php echo date('d/m/Y H:i:s',strtotime($rs['d_insert'])); ?></p>
+                    <p class="card-text">Date(CURRENT_TIMESTAMP) : <?php echo date('d/m/Y H:i:s',strtotime($rs['d_insert'].' +7 hours' )); ?></p>
                 	</b>
                     </div>
                 </div>

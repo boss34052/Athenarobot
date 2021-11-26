@@ -537,10 +537,16 @@ td {
   }
 
   .content-services-block {
-    width: 300px;
+    width: 320px;
     margin: 2rem auto;
-    height: 750px;
+    height: 700px;
     box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
     border-radius: 50px;
     overflow: hidden;
   }
+
+  .content-services-grid select {
+    width: 85%;
+  }
+
+  

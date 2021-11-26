@@ -77,18 +77,19 @@
     <div class="container">
 
     <?php foreach ($sql_date as $rs){ ?>
+        <div class="table-responsive">
             <table class="table">
             <thead class="thead-dark">
             <tr>
             <th scope="col">#ID</th>
-            <th scope="col">First Bed</th>
-            <th scope="col">Second Bed</th>
-            <th scope="col">Third Bed</th>
-            <th scope="col">Fourth Bed</th>
-            <th scope="col">Fifth Bed</th>
-            <th scope="col">Sixth Bed</th>
-            <th scope="col">Seventh Bed</th>
-            <th scope="col">Eighth Bed</th>
+            <th scope="col">1st Bed</th>
+            <th scope="col">2nd Bed</th>
+            <th scope="col">3rd Bed</th>
+            <th scope="col">4th Bed</th>
+            <th scope="col">5th Bed</th>
+            <th scope="col">6th Bed</th>
+            <th scope="col">7th Bed</th>
+            <th scope="col">8th Bed</th>
             <th scope="col">Date and Time</th>
             </tr>
             </thead>       
@@ -107,6 +108,7 @@
             </tr>
             </tbody>
             </table>
+        </div>
             
             <?php }?>
     </div>  

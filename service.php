@@ -360,28 +360,28 @@
                     
                     <div class="card-body">
                     <b>	
-                    <p class="card-text">B_1 : <?php echo $rs['d_1']; ?></p>
+                    <p class="card-text">1st : <?php echo $rs['d_1']; ?></p>
                     <br/>
-                    <p class="card-text">B_2 : <?php echo $rs['d_2']; ?></p>
+                    <p class="card-text">2nd : <?php echo $rs['d_2']; ?></p>
                     <br/>
-                    <p class="card-text">B_3 : <?php echo $rs['d_3']; ?></p>
+                    <p class="card-text">3rd : <?php echo $rs['d_3']; ?></p>
                     <br/>
-                    <p class="card-text">B_4 : <?php echo $rs['d_4']; ?></p>
+                    <p class="card-text">4th : <?php echo $rs['d_4']; ?></p>
                     <br/>
-                    <p class="card-text">B_5 : <?php echo $rs['d_5']; ?></p>
+                    <p class="card-text">5th : <?php echo $rs['d_5']; ?></p>
                     <br/>
-                    <p class="card-text">B_6 : <?php echo $rs['d_6']; ?></p>
+                    <p class="card-text">6th : <?php echo $rs['d_6']; ?></p>
                     <br/>
-                    <p class="card-text">B_7 : <?php echo $rs['d_7']; ?></p>
+                    <p class="card-text">7th : <?php echo $rs['d_7']; ?></p>
                     <br/>
-                    <p class="card-text">B_8 : <?php echo $rs['d_8']; ?></p>
+                    <p class="card-text">8th : <?php echo $rs['d_8']; ?></p>
                     <br/>
-                    <p class="card-text">Date(CURRENT_TIMESTAMP) : <?php echo date('d/m/Y H:i:s',strtotime($rs['d_insert'].' +7 hours' )); ?></p>
+                    <p class="card-text">Date and Time : <?php echo date('d/m/Y H:i:s',strtotime($rs['d_insert'].' +7 hours' )); ?></p>
                 	</b>
                     </div>
                 </div>
                 <br/>
-                
+                 
             </div>
  
             

@@ -96,28 +96,28 @@
             <div class="content-services">
                 <div class="content-services-grid">
 
-                    <div class="content-services-item"><a href="index.php">
+                    <div class="content-services-item"><a href="index.php" style="text-decoration: none;">
                         <i class="fa fa-address-book" aria-hidden="true"></i>
                         <h2>Product</h2>
                         <p>about robot</p>
                         </a>
                     </div>
 
-                    <div class="content-services-item"><a href="service.php">
+                    <div class="content-services-item"><a href="service.php" style="text-decoration: none;">
                         <i class="fa fa-bandcamp" aria-hidden="true"></i>
                         <h2>Services</h2>
                         <p>robot interface</p>
                         </a>
                     </div>
 
-                    <div class="content-services-item"><a href="data.php">
+                    <div class="content-services-item"><a href="data.php" style="text-decoration: none;">
                         <i class="fa fa-envelope-open" aria-hidden="true"></i>
                         <h2>Database</h2>
                         <p>robot data</p>
                         </a>
                     </div>
 
-                    <div class="content-services-item"><a href="about.php">
+                    <div class="content-services-item"><a href="about.php" style="text-decoration: none;">
                         <i class="fa fa-telegram" aria-hidden="true"></i>
                         <h2>About Us</h2>
                         <p>about present</p>
